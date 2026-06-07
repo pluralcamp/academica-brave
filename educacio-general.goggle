@@ -1,0 +1,68 @@
+! name: Educació Catalunya — General
+! description: Dominis acadèmics i educatius per a primària, ESO, batxillerat i FP. Cerca general.
+! public: true
+
+! === Prioritat màxima (pes 3) ===
+$boost,site=xtec.cat,weight=3
+$boost,site=edu.cat,weight=3
+$boost,site=enciclopedia.cat,weight=3
+$boost,site=edu365.cat,weight=3
+
+! === Recursos de qualitat (pes 2) ===
+$boost,site=iec.cat,weight=2
+$boost,site=gencat.cat,weight=2
+$boost,site=wikipedia.org,weight=2
+$boost,site=wikimedia.org,weight=2
+$boost,site=raco.cat,weight=2
+$boost,site=idescat.cat,weight=2
+$boost,site=vicensvives.com,weight=2
+$boost,site=vicensvivesdigital.com,weight=2
+$boost,site=barcanova.cat,weight=2
+$boost,site=santillana.es,weight=2
+$boost,site=grupo-sm.com,weight=2
+$boost,site=anaya.es,weight=2
+$boost,site=teide.es,weight=2
+$boost,site=bromera.com,weight=2
+$boost,site=mheducation.es,weight=2
+$boost,site=mcgraw-hill.es,weight=2
+$boost,site=oxford.es,weight=2
+$boost,site=edebe.com,weight=2
+$boost,site=editorialcasals.com,weight=2
+$boost,site=paraninfo.es,weight=2
+$boost,site=cervantesvirtual.com,weight=2
+
+! === Recursos útils (pes 1) ===
+$boost,site=uoc.edu,weight=1
+$boost,site=uab.cat,weight=1
+$boost,site=ub.edu,weight=1
+$boost,site=upf.edu,weight=1
+$boost,site=udg.edu,weight=1
+$boost,site=udl.cat,weight=1
+$boost,site=urv.cat,weight=1
+$boost,site=upc.edu,weight=1
+$boost,site=uv.es,weight=1
+$boost,site=geogebra.org,weight=1
+$boost,site=khanacademy.org,weight=1
+$boost,site=filoxarxa.cat,weight=1
+$boost,site=todofp.es,weight=1
+$boost,site=3cat.cat,weight=1
+
+! === Descarts ===
+$discard,site=facebook.com
+$discard,site=instagram.com
+$discard,site=twitter.com
+$discard,site=x.com
+$discard,site=tiktok.com
+$discard,site=snapchat.com
+$discard,site=pinterest.com
+$discard,site=twitch.tv
+$discard,site=threads.net
+$discard,site=amazon.es
+$discard,site=amazon.com
+$discard,site=ebay.es
+$discard,site=ebay.com
+$discard,site=aliexpress.com
+$discard,site=fnac.es
+$discard,site=elcorteingles.es
+$discard,site=mediamarkt.es
+$discard,site=pccomponentes.com
